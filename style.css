@@ -1,9 +1,8 @@
-/*
 .container {
-    width: 60vw;
-    border: 2px dashed green;
+  width: 60vw;
+  border: 2px dashed green;
+  position: relative;
 }
-*/
 
 .box {
   width: 200px;
@@ -18,36 +17,32 @@
 
 .static {
   position: static;
-  left: 40%;
-  top: 40%;
   background-color: #ff1d00;
 }
 
 .fixed {
   position: fixed;
   top: 20%;
-  left: 20%;
+  left: 75%;
   background-color: #ffeb00;
   color: black;
 }
 
 .sticky {
   position: sticky;
-  top: 30px;
-  left: 30px;
+  top: 100%;
+  left: 100%;
   background-color: #ff9ecf;
 }
 
 .relative {
   position: relative;
-  left: 60%;
-  top: 200px;
   background-color: #1fd81f;
 }
 
 .absolute {
   position: absolute;
-  left: 60%;
-  top: 30%;
+  right: 0%;
+  top: 0%;
   background-color: #0180fc;
 }
